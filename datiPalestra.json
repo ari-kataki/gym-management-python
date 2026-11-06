@@ -1,0 +1,54 @@
+{
+  "iscritti": [
+    {
+      "codice": "I001",
+      "nome": "Marco",
+      "cognome": "Verdi",
+      "eta": 25,
+      "corsi_iscritti": ["C001", "C002"]
+    },
+    {
+      "codice": "I002",
+      "nome": "Giulia",
+      "cognome": "Neri",
+      "eta": 22,
+      "corsi_iscritti": []
+    }
+  ],
+
+  "corsi": [
+    {
+      "codice": "C001",
+      "nome": "Crossfit",
+      "istruttore": "Luca Bianchi",
+      "max_partecipanti": 2,
+      "partecipanti_attuali": 2,
+      "stato": "completo"
+    },
+    {
+      "codice": "C002",
+      "nome": "Yoga",
+      "istruttore": "Sara Rossi",
+      "max_partecipanti": 10,
+      "partecipanti_attuali": 1,
+      "stato": "disponibile"
+    }
+  ],
+
+  "iscrizioni": [
+    {
+      "id_iscrizione": "IS001",
+      "codice_iscritto": "I001",
+      "codice_corso": "C001",
+      "data_iscrizione": "2026-03-10",
+      "stato": "attiva"
+    },
+    {
+      "id_iscrizione": "IS002",
+      "codice_iscritto": "I001",
+      "codice_corso": "C002",
+      "data_iscrizione": "2026-03-15",
+      "stato": "attiva"
+    }
+  ]
+}
